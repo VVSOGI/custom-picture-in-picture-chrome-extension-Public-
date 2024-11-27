@@ -55,12 +55,21 @@ chrome.action.onClicked.addListener((tab) => {
     }
 
     const currentTab = tab.url;
+    const chzzkVideo = currentTab.split(".")[0].split("://")[1] === "chzzk";
     const youtubeVideo = currentTab && currentTab.split(".").find((item) => item === "youtube");
+
+    if (chzzkVideo) {
+      usingVideoTabId = tab.id;
+      chrome.storage.local.set({ usingVideoTabId });
+      executeScript(usingVideoTabId);
+      return;
+    }
 
     if (youtubeVideo) {
       usingVideoTabId = tab.id;
       chrome.storage.local.set({ usingVideoTabId });
       executeScript(usingVideoTabId);
+      return;
     }
   });
 });
