@@ -53,3 +53,7 @@ Switching will not work if the last touched part of the Chrome browser when swit
 ## Recommandations
 
 I'm looking for job so it doesn't matter to me, but for those of you who are working, I don't recommend using this feature to watch YouTube videos at work.
+
+## Issue
+
+1. If you have an extension that uses the Alt + P, Option + P shortcut before this, you'll need to reset it in the shortcut settings to make it work.
