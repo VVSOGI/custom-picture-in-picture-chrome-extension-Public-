@@ -1,5 +1,7 @@
 # Picture-in-Picture-From-Korea Chrome Extension
 
+Get it on the Chrome Web Store at (https://chromewebstore.google.com/detail/picture-in-picture-from-k/ohmhbgphjbplnmoflfenimhadficecoo)
+
 A simple Chrome Extension to demonstrate the [Picture-in-Picture Web API](https://wicg.github.io/picture-in-picture/) in Chrome.
 
 <img width="1440" alt="스크린샷 2024-10-19 오후 4 33 13" src="https://github.com/user-attachments/assets/f35fe035-52bb-4ca7-bab7-8a889011ad1c">
